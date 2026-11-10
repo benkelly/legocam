@@ -1,8 +1,6 @@
 # legocam
 
-
-<img width="5712" height="4284" alt="IMG_6817" src="https://github.com/user-attachments/assets/7b6fdf97-201d-4345-9e25-61f40037990a" />
-
+<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/0d2b33aa-3af4-4e77-bc2c-a231a386c3f7" />
 
 A user-space driver for the LEGO Studios camera on macOS. This camera came with LEGO set 9647, the LEGO Education Studios Camera and Software Kit. It is a Logitech QuickCam Web inside, USB ID `046d:0850`. The driver uses libusb, so it needs no kernel extension. The USB protocol comes from the Linux `gspca_stv06xx` driver.
 
