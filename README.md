@@ -1,5 +1,9 @@
 # legocam
 
+
+<img width="5712" height="4284" alt="IMG_6817" src="https://github.com/user-attachments/assets/7b6fdf97-201d-4345-9e25-61f40037990a" />
+
+
 A user-space driver for the LEGO Studios camera on macOS. This camera came with LEGO set 9647, the LEGO Education Studios Camera and Software Kit. It is a Logitech QuickCam Web inside, USB ID `046d:0850`. The driver uses libusb, so it needs no kernel extension. The USB protocol comes from the Linux `gspca_stv06xx` driver.
 
 `legocam` writes raw 356x292 `bayer_grbg8` frames to stdout. `ffplay` can show them, and `obscam` sends them to the OBS Virtual Camera.
@@ -18,6 +22,10 @@ make view
 ```
 
 ## Use it as a webcam
+
+
+<img width="4284" height="5712" alt="IMG_6823" src="https://github.com/user-attachments/assets/cd5369a1-b4e4-4806-9d68-02f5e9ba013c" />
+
 
 macOS adds a new camera only through a signed camera extension. A free Apple developer account cannot sign one. OBS ships a signed camera extension, so `obscam` sends the frames straight into it. The OBS app does not run.
 
