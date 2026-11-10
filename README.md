@@ -23,8 +23,7 @@ make view
 
 ## Use it as a webcam
 
-
-<img width="4284" height="5712" alt="IMG_6823" src="https://github.com/user-attachments/assets/cd5369a1-b4e4-4806-9d68-02f5e9ba013c" />
+<img width="1200" height="976" alt="image" src="https://github.com/user-attachments/assets/83383e78-9b08-4a8b-95b8-18175e0e1439" />
 
 
 macOS adds a new camera only through a signed camera extension. A free Apple developer account cannot sign one. OBS ships a signed camera extension, so `obscam` sends the frames straight into it. The OBS app does not run.
